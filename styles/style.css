@@ -190,6 +190,13 @@ body {
   text-shadow: -1px 0 var(--shadow-color), 0 1px var(--shadow-color), 1px 0 var(--shadow-color), 0 -1px var(--shadow-color);
 }
 
+@supports (-webkit-text-stroke: 1px var(--shadow-color)) {
+  .card__image-label {
+    text-shadow: none;
+    -webkit-text-stroke: 1px var(--shadow-color);
+  }
+}
+
 .card__content {
   display: flex;
   flex-direction: column;
