@@ -14,10 +14,23 @@
   --button-color: #fff;
   --shadow-color: #fff;
   --text-weight: 400;
-  --heading-weight: 800;
+  --heading-weight: 700;
   --bg-color: #fff;
   --border-color: #000;
   --bg-image: repeating-linear-gradient(to left, #d3d3d3 0 2px, #d3d3d300 2px 4px),repeating-linear-gradient(to bottom, #d3d3d3 0 2px, #d3d3d300 2px 4px), linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #00CC14;
+    --button-color: #00CC14;
+    --shadow-color: #000;
+    --text-weight: 465;
+    --heading-weight: 785;
+    --bg-color: #000;
+    --border-color: #00CC14;
+    --bg-image: repeating-linear-gradient(to left, #000000 0 2px, #00000000 2px 4px), repeating-linear-gradient(to bottom, #000000 0 2px, #00000000 2px 4px), linear-gradient(to bottom, #007f0c, #004306);
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -26,7 +39,7 @@
     --button-color: #fff;
     --shadow-color: #fff;
     --text-weight: 400;
-    --heading-weight: 800;
+    --heading-weight: 700;
     --bg-color: #fff;
     --border-color: #000;
     --bg-image: repeating-linear-gradient(to left, #d3d3d3 0 2px, #d3d3d300 2px 4px),repeating-linear-gradient(to bottom, #d3d3d3 0 2px, #d3d3d300 2px 4px), linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
